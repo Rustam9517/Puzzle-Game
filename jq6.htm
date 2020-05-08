@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			background-image: url('img/bg-puzzle.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100vh;
+		}
+
+		div {
+			box-sizing: border-box;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			clear: both;
+		}
+
+		#game {
+			margin: auto;
+			position: relative;
+			border: 3px solid white;
+		}
+
+		article {
+			box-sizing: border-box;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			float: left;
+			background-color: aliceblue;
+			opacity: 0.4;
+		}
+
+		#start {
+			width: 150px;
+			height: 50px;
+			margin: auto;
+		}
+
+		#restart {
+			width: 150px;
+			height: 50px;
+			margin: auto;
+		}
+
+		.slide-fwd-center {
+			margin: auto;
+			width:800px;
+			height: 600px;
+			position: absolute;
+			top:10%;
+			left:30%;
+			z-index: 500;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+
+	<button id="start">Перемешать</button>
+	<script src="script.js"></script>
+</body>
+
+</html>
